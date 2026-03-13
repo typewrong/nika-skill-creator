@@ -1,0 +1,7 @@
+interface:
+  display_name: "Nika Skill Creator"
+  short_description: "快速生成/重构并校验 Nika 技能文档（主/子文档）"
+  default_prompt: "使用 $nika-skill-creator 为我生成符合 Nika 约束的技能主文档与子文档，并给出校验结果摘要。"
+
+policy:
+  allow_implicit_invocation: true
